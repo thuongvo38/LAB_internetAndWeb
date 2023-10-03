@@ -1,0 +1,29 @@
+.w3-container {
+  max-width: 300px;
+  margin: auto;
+  background-color: blanchedalmond;
+}
+.input-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.input-info input {
+  margin: 10px;
+  height: 30px;
+}
+.send-button {
+  text-align: center;
+  width: auto;
+  margin: 15px 10px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  background-color: coral;
+  border: none;
+  border-radius: 8px;
+  box-shadow: -22px 11px 171px -42px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -22px 11px 171px -42px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -22px 11px 171px -42px rgba(0, 0, 0, 0.75);
+}
