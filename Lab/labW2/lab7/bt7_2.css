@@ -1,0 +1,46 @@
+/* body {
+  background-image: url("./img7/rose.png"), url("./img7/kim-tea-hee.png"),
+    url("./img7/nen-hoa-hong.png");
+  background-repeat: no-repeat;
+  background-color: brown;
+  background-attachment: fixed;
+  background-position: 10% 80%, 5% 15%, right bottom;
+} */
+
+body {
+  background-color: brown;
+}
+.left-img {
+  /* border: 1px solid blue; */
+  width: 400px;
+  height: 600px;
+  position: relative;
+  background-image: url(./img7/kim-tea-hee.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 80px;
+  left: 3px;
+}
+.rose {
+  /* border: 1px solid red; */
+  height: 200px;
+  width: 280px;
+  position: absolute;
+  background-image: url(./img7/rose.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 5px;
+  right: 5px;
+}
+.right-img {
+  /* border: 1px solid red; */
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  background-image: url(./img7/nen-hoa-hong.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  bottom: 0px;
+  right: 0px;
+}
