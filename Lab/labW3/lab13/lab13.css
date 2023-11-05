@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+td,
+th {
+  border: 1px solid blue;
+  padding: 10px 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+
+  margin: auto;
+  background-color: antiquewhite;
+  color: blue;
+}
+button {
+  margin: auto;
+}
+.buttonResults {
+  text-align: center;
+}
+.js-showResults {
+  color: red;
+  text-align: center;
+}

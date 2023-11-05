@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <form action="">
+      <table>
+        <tr>
+          <td class="   ">Họ và tên</td>
+          <td><input type="text" class="input-value inputName" /></td>
+        </tr>
+        <tr>
+          <td class="input-title">Địa chỉ</td>
+          <td>
+            <textarea
+              name=""
+              id=""
+              cols="50"
+              rows="5"
+              class="input-textbox"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="input-tittle">Điện thoại</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td class="input-tittle">Giới tính</td>
+          <td>
+            <input type="radio" name="gioitinh" checked="checked" />
+            Nam
+            <input type="radio" name="gioitinh" />
+            Nữ
+          </td>
+        </tr>
+        <tr>
+          <td>Nghề nghiệp:</td>
+          <td>
+            <select name="" id="">
+              <option value="1" selected="selected">Bác sĩ</option>
+              <option value="2">Kĩ sư</option>
+              <option value="3">Giáo viên</option>
+              <option value="4">Khác</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Chọn sản phẩm tham gia:</td>
+          <td>
+            <select name="" id="" size="4" class="select-value">
+              <option value="1">Kem đánh răng</option>
+              <option value="2">Bột giặt</option>
+              <option value="3">Dầu gội đầu</option>
+              <option value="4">Sữa tắm</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Số người dự đoán tham gia:</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="button-td">
+            <input
+              type="button"
+              value="Đồng ý"
+              class="button-result"
+              onclick="
+                document.querySelector('.js-showResults').innerHTML='Bạn đã đăng kí thành công !'"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div><p class="js-showResults"></p></div>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

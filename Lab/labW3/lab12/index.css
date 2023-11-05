@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: rgb(14, 90, 255);
+}
+table {
+  width: 600px;
+  height: 600px;
+  border: 1px solid rgb(18, 16, 16);
+  margin: auto;
+  border-radius: 15px;
+  background-image: url(./image/khuyen-mai.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgb(153, 239, 239);
+}
+td {
+  padding-right: 10px;
+  font-weight: bold;
+}
+tr td:first-child {
+  text-align: right;
+  color: blue;
+}
+input,
+select,
+textarea {
+  border-radius: 10px;
+  border: 1px dashed rgb(17, 17, 172);
+  background-color: rgb(75, 184, 218);
+}
+input-textbox {
+  width: 600px;
+}
+.select-value {
+  width: 200px;
+}
+.button-td {
+  text-align: center !important;
+}
+.button-result {
+  color: white;
+  background-color: blue;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+.js-showResults {
+  text-align: center !important;
+}

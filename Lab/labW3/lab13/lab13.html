@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./lab13.css" />
+  </head>
+  <body>
+    <h1>ĐĂNG KÍ DU LỊCH</h1>
+
+    <form action="">
+      <table>
+        <tbody>
+          <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Địa chỉ</td>
+            <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Khách Việt Nam</td>
+            <td><input type="checkbox" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td>Chọn tour</td>
+            <td>
+              <select name="1" id="">
+                <optgroup label="Miền Bắc ">
+                  <option value="1">Hà Nội - Hạ Long - Sapa</option>
+                  <option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
+                  <option value="">Hà Nội - Cát Bà - Tuần Châu</option>
+                </optgroup>
+                <optgroup label="Miền Trung">
+                  <option value="">Huế - Bạch Mã - Đà Nẵng</option>
+                  <option value="">Nha Trang - Đà Lạt</option>
+                  <option value="">Buôn Mê Thuột - Gia Lai - Kontum</option>
+                </optgroup>
+                <optgroup label="Miền Nam">
+                  <option value="">TpHCM - Cần Thơ - Cà Mau</option>
+                  <option value="">Phú Quốc - Côn Đảo</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Phương Tiện</td>
+            <td>
+              <input type="radio" />
+              <label for="">Máy bay</label>
+              <input type="radio" />
+              <label for="">Xe du lịch</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <fieldset>
+                <legend>Số lượng đoàn khách</legend>
+                <label for="">Người lớn</label>
+                <input type="text" />
+                <label for="">Trẻ em </label>
+                <input type="text" />
+              </fieldset>
+            </td>
+          </tr>
+          <tr>
+            <td>Ghi chú thêm</td>
+            <td>
+              <textarea name="" id="" cols="30" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="buttonResults">
+              <input
+                type="button"
+                value="Đồng ý"
+                onclick="
+              document.querySelector('.js-showResults').innerHTML
+              ='Bạn đã đăng kí thành công!';"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><p class="js-showResults"></p></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
