@@ -1,0 +1,24 @@
+.top-element {
+  background-repeat: repeat-x;
+  background-image: url(../image/nen-hoa-co.jpg);
+}
+.top-element {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+.container {
+  display: flex;
+}
+.left_container {
+  flex: 15%;
+  background-image: url(../image/mucluc.jpg);
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+}
+.right_container {
+  flex: 85%;
+}

@@ -1,0 +1,59 @@
+.top-element {
+  background-repeat: repeat-x;
+  background-image: url(../image/nen-hoa-co.jpg);
+}
+.top-element {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+.container {
+  display: flex;
+}
+.left_container {
+  flex: 15%;
+  background-image: url(../image/nen-hoa-muc-luc.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  max-height: 100%;
+  max-width: 100%;
+  background-color: rgb(90, 213, 90);
+  position: relative;
+}
+.right_container {
+  flex: 85%;
+}
+/* .sidenav {
+  height: 100%;
+  width: 200px;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  padding-top: 20px;
+} */
+
+.menu > p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.menu {
+  width: 254px;
+  height: 346px;
+  background-image: url(../image/nen-menu.png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 25px;
+  padding-top: 60px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
